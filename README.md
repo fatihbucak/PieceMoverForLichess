@@ -2,9 +2,9 @@
 
 This extension is created to move chess pieces while drawing arrows in lichess.
 
-<!--a target="_blank" href="https://chrome.google.com/webstore/detail/reply-button-for-whatsapp/memgfgibiocibclalbjpdeobclgpigpf">
+<a target="_blank" href="https://chrome.google.com/webstore/detail/piece-mover-for-lichess/hfmgojlegmbjoacgdocldnbgndbehejc">
   <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/cgljhidiioodhdhfgnociobnpchejdng">
-</a -->
+</a>
 <br>
 <img src="/images/screen1.png" width="750" height="454">
 <br>
@@ -14,7 +14,7 @@ This extension is created to move chess pieces while drawing arrows in lichess.
 Google Chrome
 
 # Usage
-This extension hasn't been live in the Chrome Web Store yet. You can download the repository and install it in your Chrome Browser.
+This extension is live in the Chrome Web Store and the link is given above, also you can download the repository and install it in your Chrome Browser.
 - Download this repository. (Clone or download -> Download ZIP)
 - Extract the ZIP file into a folder.
 - Launch Chrome Browser.
