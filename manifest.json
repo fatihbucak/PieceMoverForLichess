@@ -1,14 +1,18 @@
 {
   "name": "Piece Mover for Lichess",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Fatih Mustafa Bucak",
   "description": "Move pieces while drawing arrows",
   "permissions": [],
   "options_page": "info.html",
-    "content_scripts": [
+  "content_scripts": [
     {
-      "matches": ["https://lichess.org/*"],
-      "js": ["script.js"]
+      "matches": [
+        "https://lichess.org/*"
+      ],
+      "js": [
+        "script.js"
+      ]
     }
   ],
   "icons": {
