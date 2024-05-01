@@ -82,12 +82,12 @@ var observer = new MutationObserver(async function (mutations) {
             }
         }
         var body = document.getElementsByTagName("body")[0];
-        var zoom_val = parseInt(body.attributes.style.value.replace("--zoom:", ""));
+        var zoom_val = parseInt(body.attributes.style.value.replace("---zoom:", ""));
         zoom_val += 1;
-        body.attributes.style.value = '--zoom:' + zoom_val;
+        body.attributes.style.value = '---zoom:' + zoom_val;
         await new Promise(r => setTimeout(r, 1));
         zoom_val -= 1;
-        body.attributes.style.value = '--zoom:' + zoom_val;
+        body.attributes.style.value = '---zoom:' + zoom_val;
     }
     current_arrows = temp_arrows;
 });
